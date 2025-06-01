@@ -49,3 +49,10 @@ export default function Home() {
   );
 
 }
+export default function Home() {
+  return (
+    <main style={{ padding: "4rem", fontSize: "1.5rem" }}>
+      Hello from Next.js + WordPress 🎉
+    </main>
+  );
+}
