@@ -1,6 +1,8 @@
 import type { Project } from "@/.contentlayer/generated";
 import Link from "next/link";
 import { Eye, View } from "lucide-react";
+import gsap  from 'gsap';
+import Lenis from '@studio-freight/lenis';
 
 type Props = {
 	project: Project;
